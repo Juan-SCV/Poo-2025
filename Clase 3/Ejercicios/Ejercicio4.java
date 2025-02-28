@@ -30,7 +30,6 @@ public class Ejercicio4 {
             }
         }
 
-        // Imprimir los resultados
         System.out.print("Arreglo de números pares: ");
         for (int i = 0; i < arregloPares.length; i++) {
             System.out.print(arregloPares[i] + " ");
