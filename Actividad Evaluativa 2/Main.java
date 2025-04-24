@@ -30,7 +30,6 @@ public class Main {
         System.out.println("\nDatos del Segundo Pedido:");
         pedido2.mostrarDatosPedido();
 
-        // 🔽 POLIMORFISMO EN ACCIÓN 🔽
         Camara camara = new Camara(5, "Nikon", "Z50");
 
         Producto[] listaProductos = { p1, impresion, camara };
