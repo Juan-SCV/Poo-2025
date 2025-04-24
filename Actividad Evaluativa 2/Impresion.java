@@ -8,6 +8,11 @@ class Impresion extends Producto {
         this.fotos = fotos;
     }
 
+    @Override
+    public void mostrarDescripcion() {
+        System.out.println("Impresión a color: " + color + ", número: " + getNumero());
+    }
+
     public void mostrarFotos() {
         System.out.println("Impresion en color: " + color);
         for (Foto foto : fotos) {

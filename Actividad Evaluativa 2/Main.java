@@ -29,5 +29,15 @@ public class Main {
         Pedido pedido2 = new Pedido(cliente, productosAdicionales, new Date(), 123456789);
         System.out.println("\nDatos del Segundo Pedido:");
         pedido2.mostrarDatosPedido();
+
+        // 🔽 POLIMORFISMO EN ACCIÓN 🔽
+        Camara camara = new Camara(5, "Nikon", "Z50");
+
+        Producto[] listaProductos = { p1, impresion, camara };
+
+        System.out.println("\nDescripciones de productos (polimorfismo):");
+        for (Producto prod : listaProductos) {
+            prod.mostrarDescripcion(); // Llamada polimórfica
+        }
     }
 }
