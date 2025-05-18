@@ -114,6 +114,8 @@ public class Main {
     }
 }
 
+```
+
 ### ⚔️ Primer Combate:
 - Este es un caso de ejecución entre la clase **`Paladin`** y **`Mago`**.
 
