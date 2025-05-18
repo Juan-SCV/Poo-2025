@@ -4,7 +4,7 @@ public class Asesino extends Personaje {
     private int sangrado;
 
     public Asesino(String nombre) {
-        super(nombre, 90, new Arma("Dagas", 12, 28));
+        super(nombre, 90, new Arma("Dagas", 12, 25));
         this.sangrado = 0;
     }
 

@@ -113,3 +113,129 @@ public class Main {
         juego.iniciarPelea(jugador1, jugador2);  // Comienza la pelea
     }
 }
+
+### ⚔️ Primer Combate:
+- Este es un caso de ejecución entre la clase **`Paladin`** y **`Mago`**.
+
+#### 🧪 Descripción:
+Aca se puede ver como se desarrolla un combate por turnos entre un **Paladín** cuyo poder le permite curarse una pequeña cantidad de vida cada vez que ataca y un **Mago** que tiene la probabilidad de realizar un segundo ataque mágico a la par que tiene un alto daño de ataque a costa de pocos puntos de vida cada turno se puede ver la accion realizada y el como interactua la habilidad unica del personaje si se llega a dar como cuando el mago ataca dos veces y la curacion del paladin el combate termina en victoria del mago.
+
+#### 📋 Registro del Combate:
+
+Paladin ataca con Espada de una mano y escudo y causa 17 de daño. Se cura 4 HP.
+Estado actual:
+Paladin: 114 HP
+Mago: 63 HP
+
+Mago ataca con Bastón mágico y causa 15 de daño.
+Mago lanza un segundo hechizo con Bastón mágico causando 21 de daño extra.
+Estado actual:
+Paladin: 78 HP
+Mago: 63 HP
+
+Paladin ataca con Espada de una mano y escudo y causa 14 de daño. Se cura 5 HP.
+Estado actual:
+Paladin: 83 HP
+Mago: 49 HP
+
+Mago ataca con Bastón mágico y causa 23 de daño.
+Mago lanza un segundo hechizo con Bastón mágico causando 16 de daño extra.
+Estado actual:
+Paladin: 44 HP
+Mago: 49 HP
+
+Paladin ataca con Espada de una mano y escudo y causa 20 de daño. Se cura 6 HP.
+Estado actual:
+Paladin: 50 HP
+Mago: 29 HP
+
+Mago ataca con Bastón mágico y causa 16 de daño.
+Mago lanza un segundo hechizo con Bastón mágico causando 18 de daño extra.
+Estado actual:
+Paladin: 16 HP
+Mago: 29 HP
+
+Paladin ataca con Espada de una mano y escudo y causa 9 de daño. Se cura 5 HP.
+Estado actual:
+Paladin: 21 HP
+Mago: 20 HP
+
+Mago ataca con Bastón mágico y causa 12 de daño.
+Estado actual:
+Paladin: 9 HP
+Mago: 20 HP
+
+Paladin ataca con Espada de una mano y escudo y causa 9 de daño. Se cura 5 HP.
+Estado actual:
+Paladin: 14 HP
+Mago: 11 HP
+
+Mago ataca con Bastón mágico y causa 17 de daño.
+Estado actual:
+Paladin: 0 HP
+Mago: 11 HP
+
+Mago ha ganado la pelea.
+
+### ⚔️ Segundo Combate:
+- Este es un caso de ejecución entre la clase **`Asesino`** y **`Guerrero`**.
+
+#### 🧪 Descripción:
+Aca se pueden observar las dos clases faltantes que cree el **Asesino** y el **Guerrero** el guerrero tiene las estadisticas mas altas de las 4 clases para balancear su falta de habilidad unica y el asesino aplica un sangrado con sus ataques que se acumula
+
+#### 📋 Registro del Combate:
+
+¡Comienza la pelea entre Asesino y Guerrero!
+
+Asesino ataca con Dagas y causa 16 de daño.
+Estado actual:
+Asesino: 90 HP
+Guerrero: 104 HP
+
+Guerrero ataca con Espada de dos manos y causa 24 de daño.
+Estado actual:
+Asesino: 66 HP
+Guerrero: 104 HP
+
+Asesino ataca con Dagas y causa 15 de daño.
+Asesino aplica sangrado y causa 4 de daño extra.
+Estado actual:
+Asesino: 66 HP
+Guerrero: 85 HP
+
+Guerrero ataca con Espada de dos manos y causa 15 de daño.
+Estado actual:
+Asesino: 51 HP
+Guerrero: 85 HP
+
+Asesino ataca con Dagas y causa 25 de daño.
+Asesino aplica sangrado y causa 8 de daño extra.
+Estado actual:
+Asesino: 51 HP
+Guerrero: 52 HP
+
+Guerrero ataca con Espada de dos manos y causa 26 de daño.
+Estado actual:
+Asesino: 25 HP
+Guerrero: 52 HP
+
+Asesino ataca con Dagas y causa 24 de daño.
+Asesino aplica sangrado y causa 12 de daño extra.
+Estado actual:
+Asesino: 25 HP
+Guerrero: 16 HP
+
+Guerrero ataca con Espada de dos manos y causa 20 de daño.
+Estado actual:
+Asesino: 5 HP
+Guerrero: 16 HP
+
+Asesino ataca con Dagas y causa 20 de daño.
+Asesino aplica sangrado y causa 15 de daño extra.
+Estado actual:
+Asesino: 5 HP
+Guerrero: 0 HP
+
+
+Asesino ha ganado la pelea.
+
