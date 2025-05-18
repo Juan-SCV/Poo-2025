@@ -1,29 +1,25 @@
 package ActividadEvaluativaFinal;
 
-import java.util.Random;
-
 public class Personaje {
     protected String nombre;
     protected int puntosDeVida;
-    protected Random random;
+    protected Arma arma;
 
-    public Personaje(String nombre, int puntosDeVida) {
+    public Personaje(String nombre, int puntosDeVida, Arma arma) {
         this.nombre = nombre;
         this.puntosDeVida = puntosDeVida;
-        this.random = new Random();
+        this.arma = arma;
     }
 
     public void atacar(Personaje oponente) {
-        int daño = 10 + random.nextInt(21); // 10-30
-        System.out.println(nombre + " ataca a " + oponente.getNombre() + " y causa " + daño + " de daño.");
+        int daño = arma.calcularDaño();
+        System.out.println(nombre + " ataca con " + arma.getNombre() + " y causa " + daño + " de daño.");
         oponente.recibirDaño(daño);
     }
 
     public void recibirDaño(int daño) {
         puntosDeVida -= daño;
-        if (puntosDeVida < 0) {
-            puntosDeVida = 0;
-        }
+        if (puntosDeVida < 0) puntosDeVida = 0;
     }
 
     public boolean estaVivo() {
