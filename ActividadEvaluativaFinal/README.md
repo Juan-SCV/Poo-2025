@@ -1,6 +1,6 @@
 # Juego de Lucha
 
-Este proyecto implementa un juego de lucha entre personajes donde cada uno tiene una cantidad de puntos de vida (HP) y puede atacar al oponente con un ataque que causa un daño aleatorio. Los personajes luchan por turnos, y el primer personaje en quedarse sin puntos de vida pierde.
+Para realizar este proyecto tome mucha inspiracion de juegos rpg con sistemas de combate por turnos la base del juego estaba muy clara y se prestaba para mucha imaginacion por nuestra parte al principio pense en utilizar el sistema de combate propuesto de aleatorizar los puntos de daño realizado pero me parecia un sistema que reducia la posibilidad de añadir cosas que podrian abrir el juego y hacerlo mas interesante por eso una de las primeras cosas que pense fue en realizar digamos ese cambio de mecanicas para hacer que el daño dependiera de las armas individuales de cada personaje esto hizo que tuviera que añadir la clase arma como un atributo de los personajes porque tambien pensaba en darle una habilidad a las armas aunque eso termino siendo caracteristico de los personajes y no de las armas, las armas se pensaron despues de crear los cuatro personajes del juego que fueron lo primero que se creo y unicamente heredan los metodos de ataque de la clase personaje y despues se replantea en base a las habilidades unicas que iban a tener. una vez todos estas clases se pensaron simplemente era arreglar la progresion del juego de lucha y los casos de ejecucion en el main 
 
 ## Estructura del Proyecto
 
