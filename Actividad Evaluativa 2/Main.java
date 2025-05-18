@@ -36,7 +36,7 @@ public class Main {
 
         System.out.println("\nDescripciones de productos (polimorfismo):");
         for (Producto prod : listaProductos) {
-            prod.mostrarDescripcion(); // Llamada polimórfica
+            prod.mostrarDescripcion(); 
         }
     }
 }
