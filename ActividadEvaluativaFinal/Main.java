@@ -2,10 +2,11 @@ package ActividadEvaluativaFinal;
 
 public class Main {
     public static void main(String[] args) {
-        Personaje guerrero1 = new Personaje("Guerrero A", 100);
-        Personaje guerrero2 = new Personaje("Guerrero B", 100);
+        Personaje jugador1 = new Asesino("Gerardo");
+        Personaje jugador2 = new Mago("Antonio");
 
         JuegoLucha juego = new JuegoLucha();
-        juego.iniciarPelea(guerrero1, guerrero2);
+        juego.iniciarPelea(jugador1, jugador2);
     }
 }
+

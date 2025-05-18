@@ -5,7 +5,7 @@ import java.util.Random;
 public class Personaje {
     protected String nombre;
     protected int puntosDeVida;
-    private Random random;
+    protected Random random;
 
     public Personaje(String nombre, int puntosDeVida) {
         this.nombre = nombre;
@@ -14,7 +14,7 @@ public class Personaje {
     }
 
     public void atacar(Personaje oponente) {
-        int daño = 10 + random.nextInt(21); // Entre 10 y 30
+        int daño = 10 + random.nextInt(21); // 10-30
         System.out.println(nombre + " ataca a " + oponente.getNombre() + " y causa " + daño + " de daño.");
         oponente.recibirDaño(daño);
     }
